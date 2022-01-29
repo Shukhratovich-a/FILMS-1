@@ -35,8 +35,10 @@
   -webkit-appearance: none;
 
   &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button,
   &::-webkit-calendar-picker-indicator {
     display: none;
+    visibility: hidden;
     -webkit-appearance: none;
     opacity: 0;
   }
