@@ -18,6 +18,7 @@
   outline: none;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  appearance: none;
 }
 
 .dashboard__input--disabled {
@@ -32,7 +33,6 @@
 
 .dashboard__input[type="date"] {
   -webkit-appearance: none;
-  appearance: none;
 
   &::-webkit-inner-spin-button,
   &::-webkit-calendar-picker-indicator {
@@ -76,7 +76,7 @@
   list-style-type: none;
 }
 
-.dashboard__filter{
+.dashboard__filter {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -93,7 +93,7 @@
     width: 100%;
   }
 
-  .dashboard__button{
+  .dashboard__button {
     width: 100%;
   }
 }
